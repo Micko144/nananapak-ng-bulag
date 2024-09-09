@@ -29,6 +29,8 @@ section{
     font: 55px;
     font-weight: 1000;
     color: seagreen;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 img{
     border-radius: 30px;
@@ -37,9 +39,20 @@ img{
     font: 55px;
     font-weight: 1000;
     color: seagreen;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 .uwu{
     padding: 22px;
     height: 160px;
     width: 200px;
+}
+.card:hover{
+    background-color: rgb(184, 123, 170);
+    transition: all .4 ease;
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn-brand{
+    color: aliceblue;
 }
