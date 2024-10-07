@@ -48,7 +48,7 @@ img{
     width: 200px;
 }
 .card:hover{
-    background-color: rgb(184, 123, 170);
+    background-color: rgb(117, 89, 89);
     transition: all .4 ease;
 }
 .card:hover .card-title,
@@ -56,10 +56,65 @@ img{
 .card:hover .btn-brand{
     color: aliceblue;
 }
+
+#services {
+    background-color: bisque;
+}
 #cta{
     height: 70vh;
     background: url(coffee2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.testimonials{
+    border: 2px solid green;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.testimonials img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.testimonials a{
+    color: rgb(6, 209, 6);
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgrey;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid green;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+.accordion-button:not(.collapsed){
+    background-color: green;
+    color: #fff;
+}
+.accordion-button:hover{
+    background-color: green;
+    color: #fff;
+}
+#faq{
+    background-color: #fff;
 }
