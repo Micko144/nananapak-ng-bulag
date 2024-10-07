@@ -56,3 +56,10 @@ img{
 .card:hover .btn-brand{
     color: aliceblue;
 }
+#cta{
+    height: 70vh;
+    background: url(coffee2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
